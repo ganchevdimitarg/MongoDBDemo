@@ -1,13 +1,11 @@
 package demo.mongodb.models;
 
-import com.querydsl.core.annotations.QueryEntity;
 import lombok.*;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@QueryEntity
 @Document(collection = "custemers")
 @Setter
 @Getter
