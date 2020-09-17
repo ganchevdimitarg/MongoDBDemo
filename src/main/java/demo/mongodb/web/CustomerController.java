@@ -35,8 +35,4 @@ public class CustomerController {
         customerRepository.delete(customer);
     }
 
-    @GetMapping("/customers-all")
-    public List<Customer> allCustomer() {
-        return new ArrayList<>();
-    }
 }
